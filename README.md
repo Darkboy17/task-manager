@@ -33,13 +33,13 @@ A basic app for managing tasks. A user can add new tasks, edit them if required,
     ```
     
 3.  **Configure environment variables**:  
-    Create a `.env` file:
+    Create a `.env` file and paste:
     
     ```env
     MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xop3g.mongodb.net/algoroot-task-manager?retryWrites=true&w=majority
 	PORT=5000
     ```
-	   *Note:  Sign-up for a MongoDB Atlas account. Create a cluster and get the connection string from there and paste it as a value for `MONGODB_URI`in the .env file.*
+	   *Note:  Sign-up for a MongoDB Atlas account. Create a cluster and get the connection string from the dashboard. Simply replace* `<username>` *and* `<password>` *in* `MONGODB_URI` *with the one from your retrieve connection string.*
 4.  **Run the server**:
     
     ```bash
@@ -62,7 +62,7 @@ A basic app for managing tasks. A user can add new tasks, edit them if required,
     ```
 
 3. **Configure environment:**  
-    Create `.env` file:
+    Create `.env` file and paste the following:
     
     ```env
     NEXT_PUBLIC_API_URL=http://localhost:5000
