@@ -1,6 +1,8 @@
-# **Task Manager API Documentation**
+# **Task Manager App Documentation**
 
-A RESTful API for managing tasks, with a Next.js frontend hosted on Vercel.
+A basic app for managing tasks. A user can add new tasks, edit them if required, mark them as completed and delete obsolete tasks. Automatically loads existing tasks on launch.
+
+[View Live Application](https://task-manager-eight-plum.vercel.app)
 
 ----------
 
