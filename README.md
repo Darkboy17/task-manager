@@ -87,7 +87,7 @@ A basic app for managing tasks. A user can add new tasks, edit them if required,
 | `GET`  | `/api/tasks` | Get all tasks | not required | `[{ _id: 1, title: "sample task", description: "", createdAt: "", updatedAt: "", titleHash: "" ... }]` |
 | `POST` | `/api/tasks` | Create a task | `{ title: "New Task", description: "New description", completed: false }` | `{ success: "True", data: { _id: 1, title: "New Task", description: "New description", createdAt: "", updatedAt: "", titleHash: "" ... } ... }` |
 | `PUT`  | `/api/tasks/:id` | Update a task | `{ title: "Updated Task", completed: true }` | `{ success: "True", data: { _id: 1, title: "Updated Task", completed: True, createdAt: 2025... } ... }` |
-| `DELETE` | `/api/tasks/:id` | Delete a task | not required | `{ message: "Task deleted" }` |
+| `DELETE` | `/api/tasks/:id` | Delete a task | not required | `{ success: True, data: [] }` |
 
 ----------
 
